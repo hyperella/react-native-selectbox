@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyperella/selectbox.git"
+    "url": "git+https://github.com/hyperella/react-native-selectbox.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Hyperella",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hyperella/selectbox/issues"
+    "url": "https://github.com/hyperella/react-native-selectbox/issues"
   },
-  "homepage": "https://github.com/hyperella/selectbox#readme",
+  "homepage": "https://github.com/hyperella/react-native-selectbox#readme",
   "dependencies": {
     "prop-types": "^15.5.10"
   }
