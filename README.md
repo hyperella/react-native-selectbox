@@ -20,19 +20,19 @@ Easy to use select box for react native
     ]
 
         <SelectBox
-          onChange={this.cityChange}
-          height={250}
-          defaultText={'Select Gender'}
-          options={genders}
-          optionTextStyle={{color: 'purple'}}
-          textKey={"text"}
-          valueKey={"value"}
-          optionStyle={{
-          backgroundColor: '#fff',
-          paddingVertical: 10,
-          paddingHorizontal: 15,
-          borderRadius: 10
-          }}
+           onChange={this.cityChange}
+           height={250}
+           defaultText={'Select Gender'}
+           options={genders}
+           optionTextStyle={{color: 'purple'}}
+           textKey={"text"}
+           valueKey={"value"}
+           optionStyle={{
+             backgroundColor: '#fff',
+             paddingVertical: 10,
+             paddingHorizontal: 15,
+             borderRadius: 10
+           }}
         />
  
   ```
