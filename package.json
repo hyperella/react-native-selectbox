@@ -1,0 +1,33 @@
+{
+  "name": "selectbox",
+  "version": "1.0.0",
+  "description": "Easy to use select box for react-native",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperella/selectbox.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "select",
+    "react",
+    "native",
+    "selectbox"
+  ],
+  "author": "Hyperella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperella/selectbox/issues"
+  },
+  "homepage": "https://github.com/hyperella/selectbox#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  }
+}
