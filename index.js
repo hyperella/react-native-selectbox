@@ -113,8 +113,9 @@ class SelectBox extends Component {
 		return(
 			<View style={[this.props.optionStyle]}>
 			<TouchableWithoutFeedback onPress={() => this.toggleOptions()}>
-			<View>
+			<View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
 			<Text style={this.props.optionTextStyle}>{this.state.selected != null && this.props.options.some(k => k[this.props.valueKey] == this.state.selected) ? this.props.options.find(k => k[this.props.valueKey] == this.state.selected)[this.props.textKey] : this.props.defaultText}</Text>
+			{this.props.showArrow ? <Image source={require('./img/caret-down.png')} style={{height: 12, width: 12}} resizeMode="contain"/> : null}
 			</View>
 			</TouchableWithoutFeedback>
 
